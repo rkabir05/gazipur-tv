@@ -1,0 +1,131 @@
+  @media only screen and (max-width: 600px){
+
+    .header-main-logo-and-date,
+    .header-icon-search-box,
+    .gazipur-four-news-box,
+    .gaziprur-main-box  {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .date-box>ul {
+        text-align: center;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+    .responsive-menu>ul>li {
+        color: white;
+    }
+
+    .responsive-menu>ul {
+        list-style: none;
+    }
+    
+    .responsive-menu>ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .header-icon-search-box {
+        padding-bottom: 10px;
+    }
+
+    .header-main>nav>ul {
+        flex-direction: column;
+    }
+
+    .header-main {
+        display: none;
+    }
+    
+    .active {
+        display: block;
+    }
+
+    .gazipur-news-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .aplle-store a img,
+    .google-play a img,
+    .footer-main-download,
+    .footer-download,
+    .footer-main,
+    .gazipur-news-img img {
+        width: 100%;
+    }
+
+    
+    .footer-logo {
+        width: auto;
+    }
+
+
+    .footer-logo img {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+
+    .footer-editor {
+        width: auto;
+    }
+
+    
+    .footer-editor h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .footer-editor h3 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer-main-download {
+        flex-direction: column;
+    }
+
+    .aplle-store {
+        flex-direction: column;
+    }
+
+    .footer-download {
+        padding: 16px;
+    }
+
+    .f-design {
+        width: auto;
+        text-align: center;
+    }
+
+    .main-logo {
+        padding: 0 10px;
+    }
+
+    .gazipur-all-news h2,
+    .gazipur-sadar h2 {
+        font-size: 18px;
+    }
+
+    .gazipur-all-news {
+        padding: 2px;
+    }
+    
+    .gazipur-news-title h2 a {
+        font-size: 17px;
+    }
+
+    .gazipur-news-source p,
+    .gazipur-news-title h2 {
+        text-align: center;
+    }
+
+  }
+
+
+  

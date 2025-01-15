@@ -1,0 +1,518 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+main-box {
+    background-color: gainsboro;
+    width: 100%;
+}
+
+.header-icon-and-search {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.header-icon-search-box {
+    width: 1024px;
+    height: auto;
+    margin: auto;
+}
+
+.header-icon>ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-icon>ul>li>a {
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+.header-icon>ul>li>a:hover {
+    color: yellow;
+}
+
+.header-icon>ul>li>a {
+    transition: all 0.5s;
+}
+
+.header-icon-search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-search input {
+    padding: 5px;
+    border-radius: 13px;
+}
+
+.header-main-logo-and-date {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-logo img {
+    max-width: 100%;
+}
+
+.date-box>ul {
+    list-style: none;
+    text-align: right;
+}
+
+.date-box>ul>li {
+    padding: 4px 0;
+    margin: 4px 0;
+    border-bottom: 1px dashed black;
+}
+
+.date-box>ul>li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.header-main-menu {
+    width: 100%;
+    background-color: wheat;
+    border-bottom: 3px solid red;
+}
+
+.header-main-menu {
+    width: 100%;
+    background-color: black;
+    border-bottom: 3px solid red;
+}
+
+.header-main {
+    width: 1024px;
+    margin: auto;
+}
+
+.header-main>nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-main>nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.header-main>nav>ul>li>ul.sub-menu {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    position: absolute;
+    display: none;
+    background: black;
+    width: max-content;
+}
+
+.header-main>nav>ul>li>ul.sub-menu>li>a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 4px 0;
+}
+
+.header-main>nav>ul>li {
+    position: relative;
+}
+
+.header-main>nav>ul>li:hover .sub-menu {
+    display: block;
+}
+
+.header-main>nav>ul>li>ul.sub-menu>li>a {
+    padding: 5px 9px;
+    display: block;
+    color: white;
+}
+
+.header-main>nav>ul>li>ul.sub-menu>li>a {
+    padding: 5px 9px;
+    display: block;
+    color: white;
+}
+
+
+.header-main>nav>ul>li>a:hover {
+    color: white;
+    background: red;
+}
+
+.header-main>nav>ul>li>a {
+    transition: all 0.5s ease-in-out;
+}
+
+.header-search .fa-solid {
+    color: white;
+}
+
+.footer-logo {
+    width: 1024px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-main-menu {
+    width: 100%;
+    background-color: #666666;
+    padding: 10px 0;
+}
+
+.footer-main-download {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-main>ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.footer-main>ul>li>a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-main>ul>li>a:hover {
+    color: red;
+}
+
+
+.footer-main>ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+}
+
+.footer-main {
+    width: 70%;
+}
+
+
+.google-play img {
+    max-width: 100%;
+    /* margin-bottom: 29px; */
+}
+
+.footer-download {
+    width: 25%;
+}
+
+.aplle-store img {
+    max-width: 100%;
+}
+
+.footer-main>ul>li>a {
+    /* margin: 23px 0; */
+    /* text-align: left; */
+    /* margin-left: 0; */
+    display: block;
+    color: white;
+    /* margin-right: 58px; */
+}
+
+.footer-main>ul {
+    text-align: left;
+}
+
+
+
+.footer-editor {
+    width: 1024px;
+    margin: auto;
+    color: white;
+}
+
+.footer-editor h2 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.footer-editor h3 {
+    font-size: 13px;
+}
+
+.footer-design {
+    background-color: black;
+}
+
+.f-design {
+    width: 1024px;
+    margin: auto;
+    color: white;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.gaziprur-main-box {
+    width: 1024px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 100%;
+    background-color: gainsboro;
+    padding: 20px 0;
+}
+
+.gazipur-sadar-and-all-news {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid red;
+}
+
+
+.gazipur-sadar h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.gazipur-all-news h2 a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.gazipur-news-title>h2>a:hover {
+    color: red;
+}
+
+
+.gazipur-four-news-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.gazipur-news-item {
+    width: 23%;
+}
+
+.gazipur-news-title>h2>a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+.gazipur-news-title>h2>a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.gazipur-news-title>h2 {
+    margin: 5px 0;
+}
+
+.gazipur-news-source>p {
+    font-size: 13px;
+    color: #999999;
+}
+
+
+.gazipur-sadar>h2>a {
+    color: #555555;
+}
+
+.gazipur-sadar>h2>a:hover {
+    color: red;
+}
+
+.gazipur-all-news {
+    background-color: red;
+    padding: 5px;
+}
+
+.gazipur-news-source {
+    border-bottom: 1px dashed #999999;
+    border-top: 1px dashed #999999;
+}
+
+.f-design>h4>a {
+    text-decoration: none;
+    color: white;
+}
+
+.aplle-store {
+    display: flex;
+}
+
+.footer-main>ul>li {
+    width: 150px;
+}
+
+.responsive-menu {
+    display: none;
+}
+
+.gaziprur-main-box:last-child {
+    margin-bottom: 0;
+}
+
+.catagory-page {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catgory-left {
+    width: 70%;
+}
+
+.catogory-right {
+    width: 25%;
+}
+
+.catagory-gazipur-three-news-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catagory-main-box {
+    background-color: white;
+    padding: 10px;
+    width: 73%;
+}
+
+.catagory-gazipur-sadar>h2>a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.catagory-gazipur-sadar {
+    border-bottom: 1px solid red;
+    margin-bottom: 15px;
+}
+
+.catagory-gazipur-sadar>h2 {
+    margin-bottom: 10px;
+}
+
+.catagory-gazipur-sadar>h2 {
+    margin-bottom: 10px;
+}
+
+.catagory-gazipur-news-item {
+    width: 32%;
+    margin-bottom: 15px;
+}
+
+.catagory-gazipur-news-img img {
+    max-width: 100%;
+}
+
+.catagory-gazipur-news-title>h2>a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.catagory-gazipur-news-title>h2 {
+    margin-bottom: 5px;
+}
+
+.catagory-gazipur-news-source>p {
+    font-size: 12px;
+}
+
+.catagory-gazipur-news-source {
+    border-top: 1px dashed #999999;;
+    border-bottom: 1px dashed #999999;;
+    color: #999999;
+}
+
+
+.catogory-right {
+    background-color: white;
+    padding: 10px;
+}
+
+
+.catagory-all-news>h2>a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.catagory-all-news>h2 {
+    margin-bottom: 10px;
+}
+
+.catagory-all-news {
+    border-bottom: 1px solid red;
+    margin-bottom: 10px;
+}
+
+.catagory-right-gazipur-news-title>h2>a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.catagory-right-gazipur-news-title>h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.catagory-right-gazipur-news-source>p {
+    font-size: 10px;
+    text-align: center;
+    color: #999999;
+}
+
+.catagory-right-gazipur-news-source {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin-bottom: 15px;
+}
+
+
+
+.catagory-right-gazipur-news-title>h2>a:hover {
+    color: red;
+}
+
+.catagory-gazipur-news-title>h2>a:hover {
+    color: red;
+}
