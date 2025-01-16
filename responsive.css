@@ -50,6 +50,9 @@
         margin: 10px 0;
     }
 
+    .catagory-page,
+    .catagory-main-box,
+    .catogory-right,
     .aplle-store a img,
     .google-play a img,
     .footer-main-download,
@@ -70,9 +73,20 @@
         padding: 10px;
     }
 
+    .catagory-page {
+        display: block;
+    }
 
     .footer-editor {
         width: auto;
+    }
+
+    .catagory-gazipur-news-title>h2>a {
+        font-size: 10px;
+    }
+    
+    .catagory-gazipur-news-source>p {
+        font-size: 8px;
     }
 
     
@@ -125,7 +139,23 @@
         text-align: center;
     }
 
+    .catagory-right-item {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .catagory-right-gazipur-news-item {
+        width: 47%;
+    }
+    
+    .catagory-right-gazipur-news-item img {
+        max-width: 100%;
+    }
+
+
   }
 
 
   
+
