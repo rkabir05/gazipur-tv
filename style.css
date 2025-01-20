@@ -486,7 +486,7 @@ main {
 .catagory-right-gazipur-news-title>h2>a {
     text-decoration: none;
     color: black;
-    font-size: 11px;
+    font-size: 13px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -518,31 +518,36 @@ main {
 }
 
 
-.catagory-right-gazipur-news-img img {
-    max-width: 100%;
-}
 
-.catagory-right-gazipur-news-img img {
-    max-width: 100%;
-}
-
-.catagory-right-gazipur-news-item {
+.catagory-right-gazipur-news-item-sadar {
     display: flex;
     justify-content: space-between;
 }
 
-.catagory-right-gazipur-news-img {
-    width: 45%;
-}
 
-.catagory-right-gazipur-news-title {
-    width: 50%;
-}
 
-.catagory-right-gazipur-news-item {
+.catagory-right-gazipur-news-item-sadar {
     align-items: center;
     border-bottom: 1px dashed #999999;
     padding-bottom: 10px;
     margin-top: 0px;
     margin-bottom: 20px;
+}
+
+.catagory-right-gazipur-news-img-sadar img {
+    max-width: 100%;
+}
+
+.catagory-right-gazipur-news-title-sadar h2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.catagory-right-gazipur-news-title-sadar {
+    width: 55%;
+}
+
+.catagory-right-gazipur-news-img-sadar {
+    width: 41%;
 }

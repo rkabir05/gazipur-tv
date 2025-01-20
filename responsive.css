@@ -51,6 +51,7 @@
     }
 
     .catagory-page,
+    .catagory-right-gazipur-news-item-sadar,
     .catagory-main-box,
     .catogory-right,
     .aplle-store a img,
@@ -65,6 +66,14 @@
     
     .footer-logo {
         width: auto;
+    }
+
+    .catagory-right-gazipur-news-title-sadar h2 a {
+        font-size: 22px;
+    }
+
+    .catagory-right-gazipur-news-title-sadar {
+        width: 52%;
     }
 
 
