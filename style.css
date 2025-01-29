@@ -551,3 +551,63 @@ main {
 .catagory-right-gazipur-news-img-sadar {
     width: 41%;
 }
+
+
+.single-page-news img {
+    max-width: 100%;
+}
+
+.single-page-news h2 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.single-page-news h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.single-page-news p {
+    margin-bottom: 20px;
+}
+
+
+i.fa-brands.fa-facebook {
+    color: #1877F2;
+}
+
+i.fa-brands.fa-youtube {
+    color: #FF0000;
+}
+
+
+i.fa-brands.fa-linkedin {
+    color: #0077B5;
+}
+
+.single-news-title h2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.single-news-title h2 {
+    font-size: 5px;
+}
+
+.single-news-source p {
+    font-size: 9px;
+}
+
+.single-news-img img {
+    max-width: 100%;
+}
+
+.single-news-item {
+    width: 22%;
+}
+
+.single-right-item-sadar {
+    height: 1542px;
+    overflow: auto;
+}
