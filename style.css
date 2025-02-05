@@ -611,3 +611,14 @@ i.fa-brands.fa-linkedin {
     height: 1542px;
     overflow: auto;
 }
+
+.date-print-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+i.fa-solid.fa-print.fa-beat {
+    cursor: pointer;
+}
+

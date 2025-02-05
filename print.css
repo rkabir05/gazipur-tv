@@ -1,0 +1,40 @@
+.date-box,
+.header-main-menu,
+.catogory-right,
+.catagory-gazipur-sadar,
+.footer-logo,
+.footer-main-download,
+.catagory-gazipur-sadar,
+.catagory-gazipur-three-news-box,
+.header-icon-and-search {
+    display: none !important;
+}
+
+.f-design,
+.footer-editor {
+    text-align: center;
+}
+
+.catagory-main-box {
+    width: 90%;
+    margin: auto;
+}
+
+.single-page-news {
+    width: 100%;
+}
+
+.main-logo {
+    width: 50%;
+    margin: auto;
+}
+
+.main-logo-opacity {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50px, -50px) !important;!i;!;
+    height: 100%;
+    width: 100%;
+    opacity: 10%;
+}
